@@ -1,2 +1,2 @@
 # ZUU
-zuu site
+https://bit.ly/32gUOx2
