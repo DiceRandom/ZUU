@@ -6,23 +6,19 @@
 		font-weight: bold;
 		
 	}
-
 	body{
 		font-size: 2.484375rem;
 		margin: 0;
 	}
-
 	a{
 		text-decoration: none;
 		color: #b27777;
 	}
-
 	.topbar{
 		background-color: #ac5353;
 		overflow: hidden;
 		padding: 0px 10px;
 	}
-
 </style>
 
 <head>
@@ -53,18 +49,38 @@
 	<center>
 <body>
 
+<button onclick="install()">
+  Install
+</button>
+
 <script>
-	// Detects if device is on iOS 
-const isIos = () => {
-  const userAgent = window.navigator.userAgent.toLowerCase();
-  return /iphone|ipad|ipod/.test( userAgent );
-}
-// Detects if device is in standalone mode
-const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
 
-// Checks if should display install popup notification:
-if (isIos() && !isInStandaloneMode()) {
-  this.setState({ showInstallMessage: true });
-}
+    let deferredPrompt = null;
 
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+});
+
+async function install() {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    console.log(deferredPrompt)
+    deferredPrompt.userChoice.then(function(choiceResult){
+
+      if (choiceResult.outcome === 'accepted') {
+      console.log('Your PWA has been installed');
+    } else {
+      console.log('User chose to not install your PWA');
+    }
+
+    deferredPrompt = null;
+
+    });
+
+
+  }
+}
 </script>
