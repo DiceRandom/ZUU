@@ -1,0 +1,36 @@
+{"dir" : "ltr",
+    "lang" : "nl",
+    "name" : "ZUU",
+    "scope" : "/ZUU/",
+    "display" : "standalone",
+    "start_url" : "https://dicerandom.github.io/ZUU/",
+    "short_name" : "ZUU",
+    "theme_color" : "#ac5353",
+    "description" : "A great app, I swear",
+    "orientation" : "any",
+    "background_color" : "transparent",
+    "related_applications" : "",
+    "prefer_related_applications" : "false",
+    "generated" : "true",
+    "icons" : [
+        {
+            "src": "https://dicerandom.github.io/ZUU/logo.png",
+            "sizes": "200x200"
+        },
+        {
+            "src": "https://dicerandom.github.io/ZUU/logo.png",
+            "sizes": "200x200"
+        },
+        {
+            "src": "https://dicerandom.github.io/ZUU/logoS.png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "https://dicerandom.github.io/ZUU/logoS.png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "https://dicerandom.github.io/ZUU/logoS.png",
+            "sizes": "167x167"
+        }
+    ]}
