@@ -1,6 +1,6 @@
 {"dir" : "ltr",
     "lang" : "en-US",
-    "name" : "ZUU",
+    "name" : "VARN",
     "scope" : "/ZUU/",
     "display" : "standalone",
     "start_url" : "https://dicerandom.github.io/ZUU/",
@@ -14,23 +14,23 @@
     "generated" : "true",
     "icons" : [
         {
-            "src": "https://dicerandom.github.io/ZUU/logo.png",
+            "src": "https://dicerandom.github.io/ZUU/images/logoS.png",
             "sizes": "200x200"
         },
         {
-            "src": "https://dicerandom.github.io/ZUU/logo.png",
+            "src": "https://dicerandom.github.io/ZUU/images/logoS.png",
             "sizes": "200x200"
         },
         {
-            "src": "https://dicerandom.github.io/ZUU/logoS.png",
+            "src": "https://dicerandom.github.io/ZUU/images/logoS.png",
             "sizes": "152x152"
         },
         {
-            "src": "https://dicerandom.github.io/ZUU/logoS.png",
+            "src": "https://dicerandom.github.io/ZUU/images/logoS.png",
             "sizes": "180x180"
         },
         {
-            "src": "https://dicerandom.github.io/ZUU/logoS.png",
+            "src": "https://dicerandom.github.io/ZUU/images/logoS.png",
             "sizes": "167x167"
         }
     ]}
