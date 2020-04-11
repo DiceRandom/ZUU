@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html class="nojs html css_verticalspacer" lang="en-US">
 <style>
-  body{
-    background-color: #FF5B5B;
+  html{
+    background-color: #fffae2;
   }
+  #top-window{
+    background-color: #fffae2;
+    height: 150px;
+    padding: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #title{
+    font-size: large;
+  }
+
+  #woahz{
+    color: black;
+    width: 80px;
+    height: 30px;
+    font-weight:500;
+    padding: 2px;
+    background-color: inherit;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#woah{
+  position: absolute;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: lightgreen;
+    border-radius: 50px;
+    border-width: 0;
+    border-style: solid;
+    right: 0%;
+    bottom: 8%;
+		box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.bar{
+  border-style: solid;
+  border-color: #fffae2;
+  border-width: 1px;
+  border-top-color: gray;
+  background-color: #fffae2;
+  position: absolute;
+  bottom: 0%;
+  height: 7%;
+  width: 100%;
+}
+
 </style>
 
 
@@ -28,8 +82,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<h1>Cool Title</h1>
-<a href="about.html">about</a>
-<a href="faq.html">faq</a>
+<div id="top-window">
+  <p class="title"><strong> Good evening, Dice 🌙</strong></p>
+  <a>Inbox</a>
+  <a>History</a>
+  <a>m-icon</a>
+  <a>User</a>
+</div>
+<a id="woahz" href="faq.html" >Details</a>
+<button id="woah">Pay in store</button>
+
+<div class="bar">
+  <a>Inbox</a>
+  <a>History</a>
+  <a>m-icon</a>
+  <a href="about.html">User</a>
+</div>
 
 </html>
