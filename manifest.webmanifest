@@ -4,7 +4,7 @@
     "scope" : "/ZUU/",
     "display" : "standalone",
     "start_url" : "https://dicerandom.github.io/ZUU/",
-    "short_name" : "VARN",
+    "short_name" : "VRN",
     "theme_color" : "#ac5353",
     "description" : "A great app, I swear",
     "orientation" : "portrait",
@@ -31,6 +31,10 @@
         },
         {
             "src": "https://dicerandom.github.io/ZUU/images/logoS.png",
+            "sizes": "167x167"
+        },
+        {
+            "src": "https://dicerandom.github.io/ZUU/images/apple-touch-icon-512-512.png",
             "sizes": "167x167"
         }
     ]}
